@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
@@ -20,6 +22,15 @@ namespace ListaJuan2DSAGB
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            float raio, area, pi;
+            raio = float.Parse(textBox1.Text);
+            area = (raio * raio); 
+
+           
         }
     }
 }

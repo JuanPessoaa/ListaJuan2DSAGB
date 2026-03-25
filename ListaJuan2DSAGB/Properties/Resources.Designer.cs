@@ -63,6 +63,26 @@ namespace ListaJuan2DSAGB.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoazul {
+            get {
+                object obj = ResourceManager.GetObject("fundoazul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundobranco {
+            get {
+                object obj = ResourceManager.GetObject("fundobranco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap raio {
             get {
                 object obj = ResourceManager.GetObject("raio", resourceCulture);

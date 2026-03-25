@@ -60,12 +60,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(367, 325);
+            this.button2.Location = new System.Drawing.Point(483, 238);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -105,9 +106,9 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(135, 242);
+            this.label3.Location = new System.Drawing.Point(132, 208);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 50);
+            this.label3.Size = new System.Drawing.Size(123, 35);
             this.label3.TabIndex = 7;
             this.label3.Text = "Digite o raio da circunferência:";
             // 
