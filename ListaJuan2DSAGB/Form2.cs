@@ -26,11 +26,28 @@ namespace ListaJuan2DSAGB
 
         private void button2_Click(object sender, EventArgs e)
         {
-            float raio, area, pi;
+            float pi = 3.14159F, area, raio;
             raio = float.Parse(textBox1.Text);
-            area = (raio * raio); 
+            area = (raio * raio) *pi;
+            label3.Text = Math.Round(area, 2).ToString();
 
-           
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            label3.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
