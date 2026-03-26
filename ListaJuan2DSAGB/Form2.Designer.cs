@@ -34,8 +34,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,6 +94,14 @@
             this.textBox1.Size = new System.Drawing.Size(78, 20);
             this.textBox1.TabIndex = 6;
             // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(132, 208);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(123, 35);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Digite o raio da circunferência:";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::ListaJuan2DSAGB.Properties.Resources.raio1;
@@ -103,14 +111,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(250, 250);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(132, 208);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 35);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Digite o raio da circunferência:";
             // 
             // Form2
             // 

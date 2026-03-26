@@ -16,5 +16,15 @@ namespace ListaJuan2DSAGB
         {
             InitializeComponent();
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
