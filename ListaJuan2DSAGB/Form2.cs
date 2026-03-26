@@ -49,6 +49,11 @@ namespace ListaJuan2DSAGB
         {
             Application.Exit();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 //1.Faça um algoritmo para calcular a área de uma circunferência, considerando a fórmula ÁREA = π * RAIO2. 
