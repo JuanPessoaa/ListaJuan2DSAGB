@@ -19,11 +19,7 @@ namespace ListaJuan2DSAGB
 
         private void Ex5_Load(object sender, EventArgs e)
         {
-            double gc, gf;
-            gf = double.Parse(textBox1.Text);
-            gc = (gf - 32.0) * (5.0 / 9.0);
-            label4.Text = gf.ToString() + "°C";
-            textBox1.Text = gc + "°F";
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -35,6 +31,16 @@ namespace ListaJuan2DSAGB
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double gf, gc;
+
+            gf = double.Parse(textBox1.Text);
+            gc = (gf - 32.0) * (5.0 / 9.0);
+            label4.Text = gc.ToString() + "°C";
+            textBox1.Text = gf + "°F";
         }
     }
 }

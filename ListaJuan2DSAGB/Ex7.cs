@@ -10,37 +10,40 @@ using System.Windows.Forms;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex6 : Form
+    public partial class Ex7 : Form
     {
-        public Ex6()
+        public Ex7()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float vol, pi = 3.14159F, raio, alt;
-            raio = float.Parse(textBox1.Text);
-            alt = float.Parse(textBox2.Text);
-            vol = pi * (raio * raio) * alt;
-            label5.Text = Math.Round(vol, 2).ToString();
+            double hr, vel, combs, dist;
+            hr = double.Parse(textBox1.Text);
+            vel = double.Parse(textBox2.Text);
+            dist = hr * vel;
+            combs = dist / 12;
+            label8.Text = vel.ToString()+" Km/h";
+            label9.Text = hr.ToString() + " horas";
+            label10.Text = dist.ToString() + " Km";
+            label11.Text = Math.Round(combs, 2).ToString() + " Litros";
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
             textBox2.Clear();
-            label4.Text = "";
+            label9.Text = "";
+            label10.Text = "";
+            label11.Text = "";
+            label8.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void Ex6_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
