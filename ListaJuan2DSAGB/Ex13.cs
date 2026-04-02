@@ -7,41 +7,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex11 : Form
+    public partial class Ex13 : Form
     {
-        public Ex11()
+        public Ex13()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num;
-
-            num = int.Parse(textBox1.Text);
-            label4.Text = num.ToString() + "^2 = " + (num * num).ToString();
-            label6.Text = num.ToString() + "^3 = " + (num * num * num).ToString();
+            int n1, n2;
+            n1 = int.Parse(textBox1.Text);
+            n2 = int.Parse(textBox2.Text);
+            label5.Text = $"{n1}^2 = {n1 *n1}\n{n2}^2 = {n2 * n2}\n{n1 * n1} + {n2 * n2} = {n1 * n1 + n2 * n2}";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             textBox1.Clear();
-            label4.Text = "";
-            label6.Text = "";
+            textBox2.Clear();
+            label5.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void Ex11_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

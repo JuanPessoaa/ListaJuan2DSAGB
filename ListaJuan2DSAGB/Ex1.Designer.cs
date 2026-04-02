@@ -1,6 +1,6 @@
 ﻿namespace ListaJuan2DSAGB
 {
-    partial class Form2
+    partial class Ex1
     {
         /// <summary>
         /// Required designer variable.
