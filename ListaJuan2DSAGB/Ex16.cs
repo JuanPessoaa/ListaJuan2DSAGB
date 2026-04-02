@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+namespace ListaJuan2DSAGB
+{
+    public partial class Ex16 : Form
+    {
+        public Ex16()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double km;
+            km = double.Parse(textBox1.Text);
+            label4.Text = $"{km / 3.6F}m/s".ToString();
+        }
+    }
+}
