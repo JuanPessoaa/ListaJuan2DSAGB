@@ -20,9 +20,9 @@ namespace ListaJuan2DSAGB
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double km;
-            km = double.Parse(textBox1.Text);
-            label4.Text = $"{km / 3.6F}m/s".ToString();
+          float km;
+            km = float.Parse(textBox1.Text);
+            label4.Text = (km / 3.6).ToString("F2") +" m/s";
         }
     }
 }
