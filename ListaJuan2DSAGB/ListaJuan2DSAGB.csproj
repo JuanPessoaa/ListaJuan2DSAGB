@@ -100,11 +100,23 @@
     <Compile Include="Ex18.Designer.cs">
       <DependentUpon>Ex18.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex19.Designer.cs">
+      <DependentUpon>Ex19.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ex2.Designer.cs">
       <DependentUpon>Ex2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex20.Designer.cs">
+      <DependentUpon>Ex20.cs</DependentUpon>
     </Compile>
     <Compile Include="Ex3.cs">
       <SubType>Form</SubType>
@@ -189,8 +201,14 @@
     <EmbeddedResource Include="Ex18.resx">
       <DependentUpon>Ex18.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ex19.resx">
+      <DependentUpon>Ex19.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ex2.resx">
       <DependentUpon>Ex2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex20.resx">
+      <DependentUpon>Ex20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ex3.resx">
       <DependentUpon>Ex3.cs</DependentUpon>

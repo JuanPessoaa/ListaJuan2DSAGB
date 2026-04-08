@@ -21,11 +21,23 @@ namespace ListaJuan2DSAGB
 
         private void button1_Click(object sender, EventArgs e)
         {
-            float salbr, sal1, sal2, salliq;
+            float salbr, sal1, salliq;
 
-            salbr = float.Parse(textBox1.Text);
+            salbr = float.Parse(textBox1.Text);       
             sal1 = salbr - (salbr * 10 / 100);
-            label4.Text = $"{int1} / {int2} = {int1 / int2}";
+            salliq =  sal1 - (sal1 * 5 / 100);
+            label4.Text = "R$ "+ salliq.ToString("F2");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            label4.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
