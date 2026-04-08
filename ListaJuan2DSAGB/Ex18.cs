@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -11,29 +12,20 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex16 : Form
+    public partial class Ex18 : Form
     {
-        public Ex16()
+        public Ex18()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-          float km;
-            km = float.Parse(textBox1.Text);
-            label4.Text = (km / 3.6).ToString("F2") +" m/s";
-        }
+            float salbr, sal1, sal2, salliq;
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            textBox1.Clear();
-            label4.Text = "";
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            salbr = float.Parse(textBox1.Text);
+            sal1 = salbr - (salbr * 10 / 100);
+            label4.Text = $"{int1} / {int2} = {int1 / int2}";
         }
     }
 }

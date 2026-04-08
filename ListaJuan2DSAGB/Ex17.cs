@@ -10,41 +10,50 @@ using System.Windows.Forms;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex13 : Form
+    public partial class Ex17 : Form
     {
-        public Ex13()
+        public Ex17()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int n1, n2;
-            n1 = int.Parse(textBox1.Text);
-            n2 = int.Parse(textBox2.Text);
-            label5.Text = $"{n1}^2 = {n1 *n1}\n{n2}^2 = {n2 * n2}\n{n1 * n1} + {n2 * n2} = {n1 * n1 + n2 * n2}";
+            int int1, int2, res;
+
+            int1 = int.Parse(textBox1.Text);
+            int2 = int.Parse(textBox2.Text);
+            res = int1 % int2;
+
+            label6.Text = $"{int1} / {int2} = {int1 / int2}";
+            label7.Text = res.ToString();
+
+
+
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
             textBox1.Clear();
             textBox2.Clear();
-            label5.Text = "";
+            label6.Text = "";
+            label7.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void Ex13_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

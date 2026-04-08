@@ -39,5 +39,10 @@ namespace ListaJuan2DSAGB
             media = (val1 + val2) / 2;
             label5.Text = media.ToString();
         }
+
+        private void Ex14_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
