@@ -27,5 +27,17 @@ namespace ListaJuan2DSAGB
             nc = pn+" "+sn;
             label4.Text = nc;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            label4.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

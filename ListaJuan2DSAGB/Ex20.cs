@@ -20,7 +20,7 @@ namespace ListaJuan2DSAGB
 
         private void button3_Click(object sender, EventArgs e)
         {
-            100Application.Exit();
+            Application.Exit();
         }
 
         private void Ex20_Load(object sender, EventArgs e)
