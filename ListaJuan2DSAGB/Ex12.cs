@@ -42,5 +42,10 @@ namespace ListaJuan2DSAGB
         {
             Application.Exit();
         }
+
+        private void Ex12_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

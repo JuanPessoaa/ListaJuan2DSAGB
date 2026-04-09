@@ -148,6 +148,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Ex12";
             this.Text = "Ex12";
+            this.Load += new System.EventHandler(this.Ex12_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
@@ -19,7 +20,7 @@ namespace ListaJuan2DSAGB
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            100Application.Exit();
         }
 
         private void Ex20_Load(object sender, EventArgs e)
@@ -35,6 +36,24 @@ namespace ListaJuan2DSAGB
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int mat, ano;
+            char sem;
+            mat = int.Parse(textBox1.Text);
+            ano = mat / 10000; //separa os 2 numeros que compoe o ano na matricula
+            sem = mat.ToString()[2];//extrai somente o número do semestre
+            label5.Text = $"20{ano}";
+            label6.Text = $"{sem}º Semestre";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            label5.Text = "";
+            label6.Text = "";
         }
     }
 }
