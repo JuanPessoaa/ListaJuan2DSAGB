@@ -42,5 +42,10 @@ namespace ListaJuan2DSAGB
             label4.Text = gc.ToString() + "°C";
             textBox1.Text = gf + "°F";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

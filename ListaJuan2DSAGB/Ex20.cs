@@ -55,5 +55,10 @@ namespace ListaJuan2DSAGB
             label5.Text = "";
             label6.Text = "";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

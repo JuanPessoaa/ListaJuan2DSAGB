@@ -16,7 +16,7 @@ namespace ListaJuan2DSAGB
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Ex3());
+            Application.Run(new Form1());
         }
     }
 }
