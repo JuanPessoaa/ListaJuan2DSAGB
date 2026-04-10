@@ -33,9 +33,9 @@ namespace ListaJuan2DSAGB
             float desconto = ((percdesconto / 100) * salbruto);
             float salliquido = salbruto - desconto;
 
-            label5.Text = salbruto.ToString("F2");
-            label7.Text = desconto.ToString("F2");
-            label9.Text = salliquido.ToString("F2");
+            label5.Text = "R$ "+salbruto.ToString("F2");
+            label7.Text = "R$ " + desconto.ToString("F2");
+            label9.Text = "R$ " + salliquido.ToString("F2");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -51,6 +51,21 @@ namespace ListaJuan2DSAGB
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

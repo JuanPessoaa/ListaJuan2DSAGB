@@ -117,13 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>19. Admitindo que uma data é lida pelo algoritmo em uma variável inteira, e não em uma variável do tipo data, 
-crie um algoritmo que leia uma data no formato DDMMAA e imprima essa data no formato AAMMDD, onde: 
-• A letra D corresponde a dois algarismos representando o dia; 
-• A letra M corresponde a dois algarismos representando o mês; 
-• A letra A corresponde aos dois últimos algarismos representando o ano.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

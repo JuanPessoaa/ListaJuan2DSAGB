@@ -43,5 +43,10 @@ namespace ListaJuan2DSAGB
         {
             Application.Exit();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

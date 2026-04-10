@@ -37,7 +37,7 @@ namespace ListaJuan2DSAGB
             val1 = float.Parse(textBox1.Text);
             val2 = float.Parse(textBox2.Text);
             media = (val1 + val2) / 2;
-            label5.Text = media.ToString();
+            label5.Text = media.ToString("F2");
         }
 
         private void Ex14_Load(object sender, EventArgs e)

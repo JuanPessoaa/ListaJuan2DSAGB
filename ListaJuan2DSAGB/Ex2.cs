@@ -28,7 +28,7 @@ namespace ListaJuan2DSAGB
             num1 = int.Parse(textBox1.Text);
             num2 = int.Parse(textBox2.Text);
             result = num1 + num2;
-            label5.Text = result.ToString();
+            label5.Text = $"{num1} + {num2} = {result}";
 
 
         }

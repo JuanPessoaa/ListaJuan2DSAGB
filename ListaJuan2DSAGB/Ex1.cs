@@ -28,8 +28,9 @@ namespace ListaJuan2DSAGB
         {
             float pi = 3.14159F, area, raio;
             raio = float.Parse(textBox1.Text);
-            area = (raio * raio) *pi;
-            label3.Text = Math.Round(area, 2).ToString();
+            area = (raio * 2) *pi;
+            label3.Text = raio.ToString() + " * 2 * 3,14 = "+ area.ToString("F2");
+
 
 
         }

@@ -25,7 +25,7 @@ namespace ListaJuan2DSAGB
             comp = float.Parse(textBox1.Text);
             larg = float.Parse(textBox2.Text);
             alt = float.Parse(textBox3.Text);
-            label6.Text = (alt * comp * larg).ToString();
+            label6.Text = comp.ToString() +" * "+ larg.ToString() + " * " + alt.ToString() + " = " + (alt * comp * larg).ToString();
         }
 
         private void Ex10_Load(object sender, EventArgs e)
@@ -45,6 +45,11 @@ namespace ListaJuan2DSAGB
             textBox3.Clear();
             label6.Text = "";
             
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -293,5 +293,17 @@
   <ItemGroup>
     <None Include="Resources\eraser %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basebotaoazulescuro21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basebotaozul.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

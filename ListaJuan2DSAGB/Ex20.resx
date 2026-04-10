@@ -117,16 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>20. Suponha que uma escola utilize, como código de matrícula, um número inteiro no formato AASDDD, onde: 
-• Os dois primeiros dígitos, representados pela letra A, são os dois últimos algarismos do ano da matrícula; 
-• O terceiro dígito, representado pela letra S, vale 1 ou 2, conforme o aluno tenha se matriculado no 1º ou 2º 
-semestre; 
-• Os quatro últimos dígitos, representados pela letra D, correspondem à ordem da matrícula do aluno, no 
-semestre e no ano em questão. 
-Crie um algoritmo que leia o número de matrícula de um aluno e imprima o ano e o semestre em que ele foi 
-matriculado.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -50,5 +50,15 @@ namespace ListaJuan2DSAGB
             textBox3.Clear();
             label6.Text = "";
         }
+
+        private void Ex19_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

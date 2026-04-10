@@ -68,5 +68,10 @@ namespace ListaJuan2DSAGB
             label18.Text = "";
             label19.Text = "";
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

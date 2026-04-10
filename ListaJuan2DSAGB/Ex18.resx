@@ -118,10 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>18. Considere a seguinte situação: descontam-se inicialmente 10% do salário bruto do trabalhador como
-contribuição à previdência social. Após esse desconto, há um outro desconto de 5% sobre o valor restante do
-salário bruto, a título de um determinado imposto. Faça um algoritmo que leia o salário bruto de um cidadão e
-imprima o seu salário líquido.</value>
+    <value>Lê o salário bruto e desconta inicialmente 10% dele como contribuição  à previdência social, 
+depois, desconta 5% sobre o valor restante do salário bruto, a título de um determinado imposto e 
+imprime o salário líquido.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
