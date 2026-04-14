@@ -79,7 +79,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Italic);
             this.button1.Location = new System.Drawing.Point(360, 360);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 30);
@@ -344,8 +344,8 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(12, 419);
+            this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Italic);
+            this.button4.Location = new System.Drawing.Point(10, 410);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 40);
             this.button4.TabIndex = 27;

@@ -40,5 +40,10 @@ namespace ListaJuan2DSAGB
         {
             this.Close();
         }
+
+        private void Ex16_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

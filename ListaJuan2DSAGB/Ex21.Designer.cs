@@ -113,6 +113,7 @@
             // 
             this.button2.BackgroundImage = global::ListaJuan2DSAGB.Properties.Resources.eraser__1_;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Italic);
             this.button2.Location = new System.Drawing.Point(686, 409);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(40, 40);
@@ -135,7 +136,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(12, 419);
+            this.button4.Location = new System.Drawing.Point(10, 410);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 40);
             this.button4.TabIndex = 6;

@@ -127,8 +127,8 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(12, 419);
+            this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Italic);
+            this.button4.Location = new System.Drawing.Point(10, 410);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 40);
             this.button4.TabIndex = 5;
@@ -160,6 +160,7 @@
             this.Name = "Ex16";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juan Pessoa - 2DSA:GB | Lista | Exercício 16";
+            this.Load += new System.EventHandler(this.Ex16_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
