@@ -32,15 +32,15 @@ namespace ListaJuan2DSAGB
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Ex1 ex1 = new Ex1(); //cria uma instancia de objeto para Ex1
-            ex1.FormClosed += (s, args) => this.Show();
+            Ex01 ex01 = new Ex01(); //cria uma instancia de objeto para Ex1
+            ex01.FormClosed += (s, args) => this.Show();
             this.Hide();
-            ex1.Show();
+            ex01.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Ex2 ex2 = new Ex2(); //cria uma instancia de objeto para Ex1
+            Ex02 ex2 = new Ex02(); //cria uma instancia de objeto para Ex1
             ex2.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex2.Show();
@@ -48,7 +48,7 @@ namespace ListaJuan2DSAGB
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Ex3 ex3 = new Ex3(); //cria uma instancia de objeto para Ex1
+            Ex03 ex3 = new Ex03(); //cria uma instancia de objeto para Ex1
             ex3.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex3.Show();
@@ -56,7 +56,7 @@ namespace ListaJuan2DSAGB
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Ex4 ex4 = new Ex4(); //cria uma instancia de objeto para Ex1
+            Ex04 ex4 = new Ex04(); //cria uma instancia de objeto para Ex1
             ex4.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex4.Show();
@@ -64,7 +64,7 @@ namespace ListaJuan2DSAGB
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Ex5 ex5 = new Ex5(); //cria uma instancia de objeto para Ex1
+            Ex05 ex5 = new Ex05(); //cria uma instancia de objeto para Ex1
             ex5.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex5.Show();
@@ -72,7 +72,7 @@ namespace ListaJuan2DSAGB
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Ex6 ex6 = new Ex6(); //cria uma instancia de objeto para Ex1
+            Ex06 ex6 = new Ex06(); //cria uma instancia de objeto para Ex1
             ex6.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex6.Show();
@@ -80,7 +80,7 @@ namespace ListaJuan2DSAGB
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Ex7 ex7 = new Ex7(); //cria uma instancia de objeto para Ex1
+            Ex07 ex7 = new Ex07(); //cria uma instancia de objeto para Ex1
             ex7.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex7.Show();
@@ -88,7 +88,7 @@ namespace ListaJuan2DSAGB
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Ex8 ex8 = new Ex8(); //cria uma instancia de objeto para Ex1
+            Ex08 ex8 = new Ex08(); //cria uma instancia de objeto para Ex1
             ex8.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex8.Show();
@@ -96,7 +96,7 @@ namespace ListaJuan2DSAGB
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Ex9 ex9 = new Ex9(); //cria uma instancia de objeto para Ex1
+            Ex09 ex9 = new Ex09(); //cria uma instancia de objeto para Ex1
             ex9.FormClosed += (s, args) => this.Show();
             this.Hide();
             ex9.Show();

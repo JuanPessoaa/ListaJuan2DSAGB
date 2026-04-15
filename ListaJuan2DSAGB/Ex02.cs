@@ -10,37 +10,39 @@ using System.Windows.Forms;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex5 : Form
+    public partial class Ex02 : Form
     {
-        public Ex5()
+        public Ex02()
         {
             InitializeComponent();
         }
 
-        private void Ex5_Load(object sender, EventArgs e)
+        private void Ex2_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1, num2, result;
+            num1 = int.Parse(textBox1.Text);
+            num2 = int.Parse(textBox2.Text);
+            result = num1 + num2;
+            label5.Text = $"{num1} + {num2} = {result}";
+
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
+            textBox1.Text = "";
+            textBox2.Text = "";
             label4.Text = "";
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            double gf, gc;
-
-            gf = double.Parse(textBox1.Text);
-            gc = (gf - 32.0) * (5.0 / 9.0);
-            label4.Text = gc.ToString() + "°C";
-            textBox1.Text = gf + "°F";
         }
 
         private void button4_Click(object sender, EventArgs e)

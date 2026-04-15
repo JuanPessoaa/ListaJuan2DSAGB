@@ -10,26 +10,21 @@ using System.Windows.Forms;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex6 : Form
+    public partial class Ex05 : Form
     {
-        public Ex6()
+        public Ex05()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Ex5_Load(object sender, EventArgs e)
         {
-            float vol, pi = 3.14159F, raio, alt;
-            raio = float.Parse(textBox1.Text);
-            alt = float.Parse(textBox2.Text);
-            vol = pi * (raio * raio) * alt;
-            label5.Text = Math.Round(vol, 2).ToString();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            textBox2.Clear();
             label4.Text = "";
         }
 
@@ -38,9 +33,14 @@ namespace ListaJuan2DSAGB
             Application.Exit();
         }
 
-        private void Ex6_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            double gf, gc;
 
+            gf = double.Parse(textBox1.Text);
+            gc = (gf - 32.0) * (5.0 / 9.0);
+            label4.Text = gc.ToString() + "°C";
+            textBox1.Text = gf + "°F";
         }
 
         private void button4_Click(object sender, EventArgs e)

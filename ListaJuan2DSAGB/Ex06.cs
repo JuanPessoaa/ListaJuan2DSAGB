@@ -4,38 +4,32 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex4 : Form
+    public partial class Ex06 : Form
     {
-        public Ex4()
+        public Ex06()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double gc, gf;
-            gc = double.Parse(textBox1.Text);
-            gf = (9 * gc + 160) / 5;
-            label4.Text = gf.ToString()+"°F";
-            textBox1 .Text = gc+"°C";
-        }
-
-        private void Ex4_Load(object sender, EventArgs e)
-        {
-
+            float vol, pi = 3.14159F, raio, alt;
+            raio = float.Parse(textBox1.Text);
+            alt = float.Parse(textBox2.Text);
+            vol = pi * (raio * raio) * alt;
+            label5.Text = Math.Round(vol, 2).ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
+            textBox2.Clear();
             label4.Text = "";
         }
 
@@ -44,7 +38,7 @@ namespace ListaJuan2DSAGB
             Application.Exit();
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void Ex6_Load(object sender, EventArgs e)
         {
 
         }

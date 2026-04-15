@@ -12,9 +12,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex3 : Form
+    public partial class Ex03 : Form
     {
-        public Ex3()
+        public Ex03()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ListaJuan2DSAGB
 {
-    public partial class Ex9 : Form
+    public partial class Ex09 : Form
     {
-        public Ex9()
+        public Ex09()
         {
             InitializeComponent();
         }
