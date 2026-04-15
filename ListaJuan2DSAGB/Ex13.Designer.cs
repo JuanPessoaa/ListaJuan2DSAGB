@@ -141,10 +141,10 @@
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(735, 19);
+            this.label1.Size = new System.Drawing.Size(742, 19);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Lê dois valores inteiros (A e B) e apresenta o resultado da soma do quadrado de c" +
-    "ada valor lido.\r\n";
+            this.label1.Text = "Lê dois valores inteiros ( A e B ) e apresenta o resultado da soma do quadrado de" +
+    " cada valor lido.\r\n";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button4
